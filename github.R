@@ -4,4 +4,4 @@ d$vote16new<-rep(NA,nrow(d))
 d$vote16new[d$vote16==1]<-"Trump"
 d$vote16new[d$vote16==2]<-"Clinton"
 d$vote16new[d$vote16>2]<-"Others"
-summary(d$vote16new)
+#summary(d$vote16new)
